@@ -13,6 +13,9 @@
 		8A9F5B8D1CB4928D00CDF27B /* CoreDataPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F5B8B1CB4928D00CDF27B /* CoreDataPractice.xcdatamodeld */; };
 		8A9F5B8F1CB4928D00CDF27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9F5B8E1CB4928D00CDF27B /* Assets.xcassets */; };
 		8A9F5B921CB4928D00CDF27B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9F5B901CB4928D00CDF27B /* LaunchScreen.storyboard */; };
+		8A9F5B9A1CB4956100CDF27B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F5B991CB4956100CDF27B /* TableViewCell.swift */; };
+		8A9F5B9C1CB4970600CDF27B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F5B9B1CB4970600CDF27B /* TableViewController.swift */; };
+		8AE0150E1CB49E4B00AF9950 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0150D1CB49E4B00AF9950 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8A9F5B8E1CB4928D00CDF27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A9F5B911CB4928D00CDF27B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A9F5B931CB4928D00CDF27B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9F5B991CB4956100CDF27B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8A9F5B9B1CB4970600CDF27B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8AE0150D1CB49E4B00AF9950 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				8A9F5B901CB4928D00CDF27B /* LaunchScreen.storyboard */,
 				8A9F5B931CB4928D00CDF27B /* Info.plist */,
 				8A9F5B8B1CB4928D00CDF27B /* CoreDataPractice.xcdatamodeld */,
+				8A9F5B991CB4956100CDF27B /* TableViewCell.swift */,
+				8A9F5B9B1CB4970600CDF27B /* TableViewController.swift */,
+				8AE0150D1CB49E4B00AF9950 /* User.swift */,
 			);
 			path = CoreDataPractice;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9F5B871CB4928D00CDF27B /* ViewController.swift in Sources */,
+				8A9F5B9A1CB4956100CDF27B /* TableViewCell.swift in Sources */,
+				8AE0150E1CB49E4B00AF9950 /* User.swift in Sources */,
 				8A9F5B8D1CB4928D00CDF27B /* CoreDataPractice.xcdatamodeld in Sources */,
+				8A9F5B9C1CB4970600CDF27B /* TableViewController.swift in Sources */,
 				8A9F5B851CB4928D00CDF27B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +302,7 @@
 				8A9F5B981CB4928D00CDF27B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
