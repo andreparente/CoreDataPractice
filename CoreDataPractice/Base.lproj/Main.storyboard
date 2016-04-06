@@ -76,6 +76,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="8qu-9Z-1d8" userLabel="ViewSuperior">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search by name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i6M-jp-u5i">
+                                    <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="116" y="39" width="143" height="30"/>
+                                    </variation>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="i6M-jp-u5i"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="subviews">
+                                    <include reference="i6M-jp-u5i"/>
+                                </mask>
+                            </variation>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="55" id="qs2-k9-d2r" customClass="TableViewCell" customModule="CoreDataPractice" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="49.5" width="375" height="55"/>
@@ -118,12 +143,13 @@
                     </tableView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="searchName" destination="i6M-jp-u5i" id="WwL-hf-N2G"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="TableToMain" id="2qe-Gb-xFN"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wnj-Wo-CK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="820.5" y="306.5"/>
+            <point key="canvasLocation" x="1089.75" y="306.375"/>
         </scene>
     </scenes>
 </document>
